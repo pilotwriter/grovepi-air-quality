@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <property name="local.dist.dir" value="C:\Users\cadet\OneDrive\Desktop\raspberry\remote\pi4j-maven-archetype-main\my-project\example\target" />
+    <property name="remote.runtime.encoding" value="UTF-8" />
+    <property name="dist.jar.name" value="example" />
+    <ant antfile="antrun/build.xml" target="build-remote" />
+  </target>
+</project>
